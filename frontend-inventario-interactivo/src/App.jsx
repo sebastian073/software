@@ -32,6 +32,6 @@ export default function App(){
     </div>
     <Toasts />
     <FAB label="+" onClick={()=> window.scrollTo({top:0, behavior:'smooth'})} />
-    <div className="footer">Demo local con LocalStorage. Fácil de migrar a Firebase / Supabase.</div>
+    <div className="footer"></div>
   </div>
 }
